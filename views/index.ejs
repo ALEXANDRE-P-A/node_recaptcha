@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja  ">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" typr="text/css" href="/resources/css/main.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+  <header>
+
+  </header>
+  <main>
+    <form action="/" method="POST">
+      <div>
+        <label for="username">Username</label>
+        <input type="text" name="username">
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password">
+      </div>
+      <div class="g-recaptcha" data-sitekey="6LcAhF0lAAAAAMYBsx19h4cDhm82IMXRKgK_LQJ_" data-callback="callback_recaptcha"></div>
+      <input type="submit" value="login"> 
+    </form>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
